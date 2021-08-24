@@ -1173,6 +1173,8 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 #define EVE_HCYCLE 	(928L)	/* Th Total length of line (visible and non-visible) (in PCLKs) */
 #endif
 
-
+#ifndef EVE_HSIZE
+#error Please define the display model using the appropriate preprocessor symbol(s)
+#endif
 
 #endif /* EVE_CONFIG_H */
