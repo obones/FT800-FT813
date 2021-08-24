@@ -149,7 +149,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 
 #endif
 
-#define EVE_RVT70H
+//#define EVE_RVT70H
 
 
 /* display timing parameters below */
@@ -1172,6 +1172,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 #define EVE_HOFFSET	(88L)	/* Thf + Thp + Thb Length of non-visible part of line (in PCLK cycles) */
 #define EVE_HCYCLE 	(928L)	/* Th Total length of line (visible and non-visible) (in PCLKs) */
 #endif
+
 
 
 #endif /* EVE_CONFIG_H */
